@@ -1,0 +1,6 @@
+interface:
+  display_name: "专四口语思辨陪练"
+  short_description: "逐轮输出英文思辨话题与一正一反两句纯英文参考句型，等待用户口头作答，再输出【我的原句】【优化句】【简短点评】，并支持【继续】深度追问与【重新回答】循环重练。用于专四口语、英语口语思辨、话题演讲陪练及中式英语口语优化。"
+  default_prompt: "Use $oralenglish-skill to start a TEM-4 oral critical thinking practice round: output an English topic with one pro and one con reference sentence, wait for the user's spoken answer, then reply with ①【我的原句】 ②【优化句】 ③【简短点评】 followed by the 【继续】/【重新回答】 options."
+policy:
+  allow_implicit_invocation: true
